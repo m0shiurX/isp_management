@@ -1,0 +1,74 @@
+.container{
+  width: 95%;
+}
+
+.brand {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.brand img {
+  height: 80px;
+  margin: 10px auto;
+}
+
+.row{
+  margin-bottom: 20px;
+}
+
+.em{
+  border-bottom: 1px solid black;
+  width:100%;
+}
+
+.message{
+  margin: 10px 10px;
+  padding-left: 1.5rem;
+  border-left: 5px solid #ee6e73;
+}
+.sign{
+  margin-top: 30px;
+  border-top: 2px solid #000000;
+}
+
+table > thead >tr {
+  background-color: teal;
+  color: white;
+
+}
+table > thead > tr > th {
+  text-align: right;
+}
+table > tbody > tr > td {
+  text-align: right;
+}
+table > tfoot > tr > th {
+  text-align: right;
+}
+
+
+.printbutton a{
+  display: block;
+  width: 100px;
+  padding: 10px 5px;
+  border: 1px solid #eee;
+  position: absolute;
+  background-color: teal;
+  top: 10;
+  right:10;
+  text-align: center;
+  color:#FFF;
+  font-weight: 600;
+}
+
+@media print {
+  body{
+   /* margin-top:180px; */
+  }
+  .printbutton{
+    display: none;
+  }
+  #do_not_display_in_print{
+    display:none;
+  }
+}
